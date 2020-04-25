@@ -10,7 +10,7 @@ public class Gun : MonoBehaviour
     public float muzzleVelocity = 35;
     public ParticleSystem muzzleFlash;
 
-    [SerializeField] private float speed = 10;
+    /*[SerializeField]*/ private float speed = 10;
 
     //오브젝트 풀링을 위한 ObjectManager
     //public ObjectManager objectManager;
