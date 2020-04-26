@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Spawn\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Utility.cs" />
     <Compile Include="Assets\Scripts\Weapon\Gun\Gun.cs" />
     <Compile Include="Assets\Scripts\Weapon\Gun\GunController.cs" />
     <Compile Include="Assets\Scripts\Weapon\Gun\Projectile.cs" />
