@@ -17,14 +17,20 @@ public class LivingEntity : MonoBehaviour, IDamageable
         health = startingHealth;
     }
 
-    void IDamageable.TakeHit(float damage, RaycastHit hit)
+    public void TakeDamage(float damage)
     {
         health -= damage;
 
-        if(health <= 0 && !dead)
+        if (health <= 0 && !dead)
         {
             Die();
         }
+    }
+
+    public void TakeHit(float damage, RaycastHit hit)
+    {
+        // Do some stuff here with hit var
+        TakeDamage(damage);
     }
 
     protected void Die()
